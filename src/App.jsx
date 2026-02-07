@@ -11,6 +11,7 @@ import NotFound from './components/NotFound/NotFound'
 import Cart from './components/Cart/Cart'
 import Category from './components/Category/Category'
 import Register from './components/Register/Register'
+import Login from './components/Login/Login'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
       {path:'cart',element:<Cart/>},
       {path:'category',element:<Category/>},
       {path:'register',element:<Register/>},
+      {path:'login',element:<Login/>},
       {path:'*',element:<NotFound/>},
 
     ]}

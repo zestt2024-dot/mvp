@@ -25,7 +25,7 @@ export default function Navbar() {
 
 
         <ul className='flex justify-around '>
-            <li className='text-lg mx-4 text-slate-900 font-normal'><NavLink to={'/'}>Login</NavLink></li>
+            <li className='text-lg mx-4 text-slate-900 font-normal'><NavLink to={'/login'}>Login</NavLink></li>
             <li className='text-lg mx-4 text-slate-900 font-normal'><NavLink to={'/register'}>Register</NavLink></li>
             <li className='text-lg mx-4 text-slate-900 font-normal'><NavLink to={''}>Logout</NavLink></li>
                 <li className='flex items-center mx-4'>
